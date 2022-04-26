@@ -1,0 +1,119 @@
+.main{
+    height:630px;
+    width:100%;
+    background: url("../img/img1.jpg");
+    background-size: 100% 100%;
+    /*display: flex;*/
+    }
+    body{
+    margin: 0px 0px 0px 0px;
+    }
+    #sharp{
+    margin-left: 9px;
+    font-weight: 1300;
+    }
+    #sharp2{
+    margin-left: 10px;
+    font-weight: 1300;
+    }
+    .second{
+    width: 85%;
+    height:500px;
+    padding-left: 200px;
+    background-color: aliceblue;
+    margin-top: -5px;
+    }
+    body{
+        background-color: aliceblue;
+    }
+    .second-1{
+    background: url("../img/img2.jpg");
+    background-size: 400px 400px;
+    height:400px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+    }
+    .second-2{
+    height: 180px;
+    width: 400px;
+    margin-left: 340px;
+    margin-top:-293px;
+    text-align: left;
+    font-size: larger;
+    background-color: black;
+    color: aqua;
+    padding-top: 5px;
+    line-height: 45px;
+    border-radius: 10px;
+    }
+    a{
+        color: red;
+    }
+    .second-3{
+        height: 100px;
+        width:85%;
+        margin-left: 70px;
+        display: flex;
+    }
+    .third{
+        width:99%;
+        height: 600px;
+        border: 1px solid black;
+        background: url('../img/img3.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100;
+        display: flex;
+    }
+    .labels{
+        width:776px;
+        height: 300px;
+        border: 1px solid black;
+        margin-left: 230px;
+        margin-top: 170px;
+    }
+    /* .labels h4{
+        height: 24px;
+        width:103px;
+        background-color: rgba(13, 13, 14, 0.3);
+        color: white;
+        text-align: center;
+        margin-top: 4px;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        display: inline;
+        margin-left: 30px;
+        t
+    } */
+    .logo{
+    	width:450px;
+    	height: 300px;
+    	margin-left: 900px;
+    	padding-top: 100px;
+    	
+    }
+    @media screen and (max-width: 480px) {
+        .main{
+            height: 574px;
+            width: 1000PX;
+            background-size: 99% 99%;
+        }
+        img{
+           width:140px;
+           height: 49px;
+        }
+        .logo{
+        	margin-left: 559px;
+        }
+        .second {
+        	padding-left: 100px;
+        }
+        .second-3{
+        	width:230%;
+        	height:119px;
+        }
+        .third{
+        	width: 276%;
+        }
+      }
