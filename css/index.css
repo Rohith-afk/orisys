@@ -3,7 +3,6 @@
     width:100%;
     background: url("../img/img1.jpg");
     background-size: 100% 100%;
-    /*display: flex;*/
     }
     body{
     margin: 0px 0px 0px 0px;
@@ -62,7 +61,7 @@
         border: 1px solid black;
         background: url('../img/img3.jpg');
         background-repeat: no-repeat;
-        background-size: 100% 100;
+        background-size: 100% 100%;
         display: flex;
     }
     .labels{
@@ -72,20 +71,6 @@
         margin-left: 230px;
         margin-top: 170px;
     }
-    /* .labels h4{
-        height: 24px;
-        width:103px;
-        background-color: rgba(13, 13, 14, 0.3);
-        color: white;
-        text-align: center;
-        margin-top: 4px;
-        padding-top: 5px;
-        border-radius: 5px;
-        font-size: 14px;
-        display: inline;
-        margin-left: 30px;
-        t
-    } */
     .logo{
     	width:450px;
     	height: 300px;
@@ -95,8 +80,8 @@
     }
     @media screen and (max-width: 480px) {
         .main{
-            height: 574px;
-            width: 1000PX;
+            height: 505px;
+            width: 763PX;
             background-size: 99% 99%;
         }
         img{
@@ -104,16 +89,27 @@
            height: 49px;
         }
         .logo{
-        	margin-left: 559px;
+        	margin-left: 488px;
+            height: 200px;
+            width: 274px;
+
         }
         .second {
-        	padding-left: 100px;
+        	padding-left: 0px;
+            height: 450px;
+        }
+        .second-2{
+            line-height: 35px;
         }
         .second-3{
-        	width:230%;
+        	width:189%;
         	height:119px;
+            margin-bottom: 20px;
         }
         .third{
-        	width: 276%;
+        	width: 210%;
+            height: 532px;
         }
+        #sharp,#sharp2{font-size: 25px}
+        
       }
